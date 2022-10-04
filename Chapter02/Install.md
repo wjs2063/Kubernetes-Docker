@@ -24,5 +24,8 @@ vagrantfile :   config.vm.box = "sysnet4admin/CentOS-k8s" 수정하기
 ```
 vagrant up
 ```
+default: Successfully added box 'sysnet4admin/CentOS-k8s' (v0.7.4) for 'virtualbox 메세지가 나오면 성공
+
+
 
 
