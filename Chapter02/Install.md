@@ -54,5 +54,9 @@ vagrant up
 default: Successfully added box 'sysnet4admin/CentOS-k8s' (v0.7.4) for 'virtualbox 메세지가 나오면 성공
 
 
+[windows] 
+
+https://www.vagrantup.com/downloads.html
+
 
 
