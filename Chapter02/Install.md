@@ -58,5 +58,28 @@ default: Successfully added box 'sysnet4admin/CentOS-k8s' (v0.7.4) for 'virtualb
 
 https://www.vagrantup.com/downloads.html
 
+```
+cd c:/HashiCorp
+
+vagrant init
+```
+
+vagrant init 명령어 실행후
+
+vagrantfile 에서 
+
+config.vm.box = "base" 가있다 
+
+vagrant up 명령어 실행 -> 이미지 찾지못해 생기는 error
+
+https://app.vagrantup.com/boxes/search -> sysnet4admin/CentOS-k8s 찾기
+
+```
+config.vm.box = "sysnet4admin/CentOS-k8s
+```
+
+```
+vagrant up
+```
 
 
