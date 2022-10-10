@@ -3,8 +3,7 @@
 brew install vagrant
 ```
 
-https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Download_Old_Builds_6_1)
-
+https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
 
 
 ```
