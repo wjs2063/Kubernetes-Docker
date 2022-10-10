@@ -1,9 +1,35 @@
+virtual box install
+
+https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
+아마 m1 mac 에서는 1908 에러가 뜰것이고 ( 아직 지원을 하지않는것같음 )
+window 에서는
+
+
+failed to get device handle and/or partition id for 00000000016f3190 (hpartitiondevice=0000000000000d25, last=0xc0000002/1) (verr_nem_vm_create_failed)
+해당 에러가 뜰수도있다.
+
+침착하게 
+
+
+관리자 모드로 cmd 창 켜고
+
+```
+bcdedit /set hypervisorlaunchtype off
+
+```
+
+
+```
+shutdown -s -t 2
+```
+
+그리고 virtual box 실행 하면 ok
 
 ```
 brew install vagrant
 ```
 
-https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
+
 
 
 ```
