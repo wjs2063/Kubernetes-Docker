@@ -25,6 +25,8 @@ shutdown -s -t 2
 
 그리고 virtual box 실행 하면 ok
 
+[m1 mac]
+
 ```
 brew install vagrant
 ```
